@@ -35,6 +35,8 @@ Redirect https://NGROKxxxxxx  to localhost:8000
 https://developers.line.biz/console/channel/1630146909/basic/
 Webhook URL Requires SSL= https://NGROKxxxxxx/callback
 
+![image](https://user-images.githubusercontent.com/16419246/49954183-7f25db80-fec5-11e8-9124-2d080ec36c73.png)
+
 
 8) Add QR code on line friend and start chatting with bot on LINE CHAT ROOM
 *Note using all lowercase with following text
