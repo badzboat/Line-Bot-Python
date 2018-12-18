@@ -18,7 +18,8 @@ and token (secret key and channel key)
 
 
 4) Set variable for BOTH token when app.py called
-Running flask on windows:
+ Running flask on windows:
+
 set LINE_CHANNEL_SECRET=e9e7++++++
 set LINE_CHANNEL_ACCESS_TOKEN=tLHJIK++++++++++
 
