@@ -321,13 +321,9 @@ def handle_text_message(event):
         template_message = TemplateSendMessage(
             alt_text='ImageCarousel alt text', template=image_carousel_template)
         line_bot_api.reply_message(event.reply_token, template_message)
-    elif text == 'Location':
-		pass 
-#		location = LocationSendMessage(title='Mom home', address='Tokyo', latitude=35.65910807942215, longitude=139.70372892916203)
-#		print (location)
-#		template_message = TemplateSendMessage(alt_text='location', template=location)
-#		print (template_message)
-#		line_bot_api.reply_message(event.reply_token, template_message)		
+    elif text == 'Where is mom': 
+		location_message = LocationSendMessage(type='Where is Mom?', title='Mom home', address='Mom', latitude=13.799750, longitude=100.641546)
+		line_bot_api.reply_message(event.reply_token, location_message)		
     elif text == 'flex':
         bubble = BubbleContainer(
             direction='ltr',
