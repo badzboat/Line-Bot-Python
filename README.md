@@ -50,3 +50,11 @@ Webhook URL Requires SSL= https://NGROKxxxxxx/callback
 - buttons
 - carousel
 - image_carousel
+
+
+## @handler.add  from webhook will kick in the next process
+- Download posted images
+- Location posted
+- Sticker posted
+- File downloaded
+AWESOME !!
