@@ -11,11 +11,13 @@ https://console.aws.amazon.com/s3/buckets
  - Type "Bot"
  - Select album
  
-# <Location sends as text>
+# Location sends as text
+<Location sends as text>
 		location_message = LocationSendMessage(type='Where is Mom?', title='Mom home', address='Mom', latitude=13.799750, longitude=100.641546)
 		line_bot_api.reply_message(event.reply_token, location_message)	
   
-# <Image Carousel send as template>
+# Image Carousel send as template
+<Image Carousel send as template>
         carousel_template = CarouselTemplate(columns=[
             CarouselColumn(
 				thumbnail_image_url='https://s3-us-west-2.amazonaws.com/awsrobomakerhelloworld-154344673743-bundlesbucket-1n2aine7xqbt8/image/miyuu1024-1.jpg',
