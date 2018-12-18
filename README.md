@@ -13,7 +13,8 @@ Type = Messaging API
 
 
 3) Issue Channel access token (long-lived)
-Save 2 variables to input into Python code, All requests must have LINE signature(included in app.py) and token (secret key and channel key)
+Save 2 variables to input into Python code, All requests must have LINE signature(included in app.py) 
+and token (secret key and channel key)
 
 
 4) Set variable for BOTH token when app.py called
@@ -21,7 +22,8 @@ Running flask on windows:
 set LINE_CHANNEL_SECRET=e9e7++++++
 set LINE_CHANNEL_ACCESS_TOKEN=tLHJIK++++++++++
 
-Now both variables are ready to be called by APP.py  (make sure running these 2 set commands before run "python app.py" on same session)
+Now both variables are ready to be called by APP.py  
+(make sure running these 2 set commands before run "python app.py" on same session)
 
 
 5) Run "ngrok http 8000"
@@ -32,6 +34,7 @@ Redirect https://NGROKxxxxxx  to localhost:8000
 
 
 7) Add webhook on line channel config   (DON'T FORGET ADDING    /callback) for LINE Webhook to verify connection
+
 https://developers.line.biz/console/channel/1630146909/basic/
 Webhook URL Requires SSL= https://NGROKxxxxxx/callback
 
