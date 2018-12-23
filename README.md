@@ -24,7 +24,7 @@ and token (secret key and channel key)
 set LINE_CHANNEL_SECRET=e9e7++++++  
 set LINE_CHANNEL_ACCESS_TOKEN=tLHJIK++++++++++  
 
-(ubuntu export =  LINE_CHANNEL_SECRET=e9e7++++++)    
+(ubuntu: export =  LINE_CHANNEL_SECRET=e9e7++++++)    
 
 Now both variables are ready to be called by APP.py    
 (make sure running these 2 set commands before run "python app.py" on same session)  
